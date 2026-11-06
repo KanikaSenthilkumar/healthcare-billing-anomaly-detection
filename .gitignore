@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter & IPython cache
+.ipynb_checkpoints/
+.ipython/
+.jupyter_data/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+
+# Large data files (>100MB exceeds GitHub push limits)
+# These files are fully reproducible by running 02_Cleaning.ipynb, 03_Segmentation_Features.ipynb, and 04_Anomaly_Detection.ipynb
+data/processed/*.csv
+outputs/*.csv
+
+# Retain directory structure and Excel outputs
+!outputs/anomalies_final.xlsx
+
